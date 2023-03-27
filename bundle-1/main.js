@@ -29,23 +29,23 @@
 // Su message non deve essere una variabile costante ma un let.
 
 // ESERCIZIO 2
-// function printColorsNumber() {
-//   const colors = ["blue", "red", "yellow", "green", "black"];
-//   console.log(`Nella mia palette ci sono ${colors.length - 1} colori!`);
-// }
-// printColorsNumber();
+function printColorsNumber() {
+  const colors = ["blue", "red", "yellow", "green", "black"];
+  console.log(`Nella mia palette ci sono ${colors.length} colori!`);
+}
+printColorsNumber();
 
 // ESERCIZIO 2
-// non ci andava il length da solo ma col meno uno, altrimenti risultavano 5 colori
+// Era scritto in modo sbagliato "length" ( io essendo dislessica potevo starci 80 giorni )
 
 // ESERCIZIO 3
-function addNumbers() {
-  const userNumber = parseInt(prompt("Inserisci un numero"));
-  const total = userNumber + 12;
+// function addNumbers() {
+//   const userNumber = parseInt(prompt("Inserisci un numero"));
+//   const total = userNumber + 12;
 
-  console.log(`Il risultato finale è ${total}`);
-}
-addNumbers();
+//   console.log(`Il risultato finale è ${total}`);
+// }
+// addNumbers();
 // ESERCIZIO 3
 // ci andavo messo il parseIn, altrimenti risultava come stringa.
 
