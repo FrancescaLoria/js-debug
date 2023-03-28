@@ -29,11 +29,11 @@
 // Su message non deve essere una variabile costante ma un let.
 
 // ESERCIZIO 2
-function printColorsNumber() {
-  const colors = ["blue", "red", "yellow", "green", "black"];
-  console.log(`Nella mia palette ci sono ${colors.length} colori!`);
-}
-printColorsNumber();
+// function printColorsNumber() {
+//   const colors = ["blue", "red", "yellow", "green", "black"];
+//   console.log(`Nella mia palette ci sono ${colors.length} colori!`);
+// }
+// printColorsNumber();
 
 // ESERCIZIO 2
 // Era scritto in modo sbagliato "length" ( io essendo dislessica potevo starci 80 giorni )
@@ -49,26 +49,29 @@ printColorsNumber();
 // ESERCIZIO 3
 // ci andavo messo il parseIn, altrimenti risultava come stringa.
 
-// // ESERCIZIO 4
+// ESERCIZIO 4
 // function checkAccess() {
-//     const addresses = [
-//         'mymail@mail.com',
-//         'yourmail@mail.com',
-//         'hermail@mail.com',
-//         'hismail@mail.com',
-//     ];
-//     const userEmail = prompt('Inserisci il tuo indirizzo email');
+//   const addresses = [
+//     "mymail@mail.com",
+//     "yourmail@mail.com",
+//     "hermail@mail.com",
+//     "hismail@mail.com",
+//   ];
+//   const userEmail = prompt("Inserisci il tuo indirizzo email");
 
-//     let grantAccess = 'false';
+//   let grantAccess = false;
 
-//     if (addresses.includes(userEmail)) {
-//         grantAccess = 'true';
-//     }
+//   if (addresses.includes(userEmail)) {
+//     grantAccess = true;
+//   }
 
-//     if (grantAccess === true) {
-//         console.log('Accesso consentito!');
-//     } else {
-//         console.log('Accesso negato!');
-//     }
+//   if (grantAccess === true) {
+//     console.log("Accesso consentito!");
+//   } else {
+//     console.log("Accesso negato!");
+//   }
 // }
 // checkAccess();
+
+// ESERCIZIO 4
+// tolgo le virgolette da true e false, perchè sono booleani
